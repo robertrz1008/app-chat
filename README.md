@@ -29,11 +29,11 @@ cd server
 ```bash
 npm install
 ```
-2. crear una base de datos llamado "appChatdb".
+3. crear una base de datos llamado "appChatdb".
 
-3. En el archivo  **pg.sql** dentro de la carpeta **utils** copiar todo el script y pegarlo en su cliente de postgres, que conformara todas las tabla de la base de datos.
+4. En el archivo  **pg.sql** dentro de la carpeta **utils** copiar todo el script y pegarlo en su cliente de postgres, que conformara todas las tabla de la base de datos.
 
-4. Modifica el codigo del archivo **connectiondb.ts** segun la configuracion de gestor de su base de datos postgres.
+5. Modifica el codigo del archivo **connectiondb.ts** segun la configuracion de gestor de su base de datos postgres.
 ```ts
 import pgSql from "pg"
 
