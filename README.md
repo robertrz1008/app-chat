@@ -55,7 +55,7 @@ npm run dev
 ##  Configuración del Front End
 1. Accede a la carpeta **client**:
 ```bash
-cd frontendP
+cd client
 ```
 2. Instala las dependencias:
 ```bash
