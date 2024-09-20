@@ -1,0 +1,44 @@
+.modal-users-con{
+    width: 400px;
+    height: 370px;
+    font-family: sans-serif;
+    color: rgb(61, 60, 60);
+}
+.modal-users-textfiel{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 0.7px solid rgb(107, 105, 105);
+    border-top: 1px solid rgb(107, 105, 105);
+    margin-top: 10px;
+    outline: none;
+}
+.modal-users-exit{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-weight: inherit;
+}
+.button{
+    border: none;
+    width: 94%;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(13, 80, 204);
+    cursor: pointer;
+  }
+.button:hover{
+    background-color:rgb(16, 51, 206)
+}
+.buttonOff{
+    border: none;
+    width: 94%;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(68, 129, 243);
+    cursor: pointer;
+}

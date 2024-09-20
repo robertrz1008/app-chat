@@ -1,0 +1,9 @@
+.fileName-body button{
+  border: none;
+  width: 135px;
+  height: 23px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(13, 80, 204);
+  cursor: pointer;
+}

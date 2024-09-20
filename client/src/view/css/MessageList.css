@@ -1,0 +1,16 @@
+.List-container{
+    width: 98%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+}
+/* personalizar el scroll */
+.List-container::-webkit-scrollbar{
+    width: 5px;
+}
+.List-container::-webkit-scrollbar-thumb{
+    background-color: rgb(73, 72, 72);
+    border-radius: 5px;
+}

@@ -1,0 +1,101 @@
+.authPage{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.auth-con h1{
+    text-align: center;
+}
+
+.auth-con{
+    width: 570px;
+    background-color: rgb(216, 219, 219);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-body{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.auth-input{
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    color: rgb(100, 96, 96);
+    padding-left: 10px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.auth-btn{
+    width: 80%;
+    height: 35px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: rgb(83, 111, 202);
+    color: white;
+    border:none;
+}
+.auth-buttonOff{
+    width: 80%;
+    height: 35px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: rgb(48, 92, 235);
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+.auth-btn:hover{
+    background-color: rgb(69, 106, 228);
+    cursor: pointer;
+}
+.auth-body p{
+    color: red;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    align-self: self-start;
+}
+.error-list{
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(250, 97, 97);
+    align-self: center;
+    color: rgb(43, 1, 1);
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.auth-link-p{
+    margin-top: 20px;
+}
+
+.auth-link{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(10, 83, 241);
+}

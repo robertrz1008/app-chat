@@ -1,0 +1,40 @@
+.panel-profile-con-img div{
+    width: 100%; /* Cambia el tamaño según tus preferencias */
+    height: 100%; /* Cambia el tamaño según tus preferencias */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-profile-con-img div div{
+    width: 80%; /* Cambia el tamaño según tus preferencias */
+    height: 80%; /* Cambia el tamaño según tus preferencias */
+    border-radius: 50%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* de los contantos */
+.user-img-con{
+    width: 100%; /* Cambia el tamaño según tus preferencias */
+    height: 100%; /* Cambia el tamaño según tus preferencias */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-img-surraw{
+    width: 80%; /* Cambia el tamaño según tus preferencias */
+    height: 80%; /* Cambia el tamaño según tus preferencias */
+    border-radius: 50%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #0000;
+}
